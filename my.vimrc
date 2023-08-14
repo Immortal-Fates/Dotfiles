@@ -16,7 +16,14 @@ nmap <leader>= <C-b>
 
 
 
-
+"忽略大小写
+set ignorecase
+"开启自动补全
+set wildmenu
+"文件类型检测
+filetype on
+"根据不同的文件加载不同插件
+filetype plugin on
 
 " Vim is based on Vi. Setting `nocompatible` switches from the default
 
